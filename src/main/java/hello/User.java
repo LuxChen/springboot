@@ -14,6 +14,8 @@ public class User {
     private String name;
 
     private String email;
+    
+    private String telnumber;
 
 	public Integer getId() {
 		return id;
@@ -37,6 +39,14 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getTelnumber() {
+		return telnumber;
+	}
+
+	public void setTelnumber(String telnumber) {
+		this.telnumber = telnumber;
 	}
 
 
